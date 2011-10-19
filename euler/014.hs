@@ -1,5 +1,7 @@
 import Data.List
 
+--take 5min in Core i7 machine
+
 next x 
   | even x = div x 2
   | otherwise = 3 * x + 1 
